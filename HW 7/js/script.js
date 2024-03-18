@@ -6,22 +6,22 @@
 // sum() повертає суму цих властивостей.
 // mul() повертає результат множення даних властивостей.
 
-function Calculator() {
-  this.read = function () {
-    this.a = +prompt('Введіть перше число: ');
-    this.b = +prompt('Введіть друге число: ');
-  };
-  this.sum = function () {
-    return this.a + this.b;
-  };
-  this.mul = function () {
-    return this.a * this.b;
-  };
-}
+// function Calculator() {
+//   this.read = function () {
+//     this.a = +prompt('Введіть перше число: ');
+//     this.b = +prompt('Введіть друге число: ');
+//   };
+//   this.sum = function () {
+//     return this.a + this.b;
+//   };
+//   this.mul = function () {
+//     return this.a * this.b;
+//   };
+// }
 
-let calc = new Calculator();
+// let calc = new Calculator();
 
-calc.read();
+// calc.read();
 
-alert(`Сума: ` + calc.sum());
-alert(`Множення: ` + calc.mul());
+// alert(`Сума: ` + calc.sum());
+// alert(`Множення: ` + calc.mul());
