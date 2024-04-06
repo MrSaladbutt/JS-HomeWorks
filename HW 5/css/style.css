@@ -1,0 +1,20 @@
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttons__html,
+.buttons__css {
+  border-radius: 15px;
+  background-color: aqua;
+  border: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px 1px gray;
+  transition: transform 0.2s;
+}
+
+.buttons__html:hover,
+.buttons__css:hover {
+  transform: translate(0, 5px);
+}
